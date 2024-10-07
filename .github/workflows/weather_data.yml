@@ -2,7 +2,7 @@ name: Weather ETL Automation
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Se ejecutará diariamente a medianoche UTC
+    - cron: '*/5 * * * *'  # Se ejecutará diariamente a medianoche UTC
 
 jobs:
   build:
