@@ -1,8 +1,10 @@
 name: Weather ETL Automation
 
 on:
+  workflow_dispatch:  
   schedule:
-    - cron: '*/5 * * * *'  # Se ejecutará diariamente a medianoche UTC
+    - cron: '0 0 * * *'  # Se ejecutará diariamente a medianoche UTC
+
 
 jobs:
   build:
