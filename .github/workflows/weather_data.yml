@@ -3,7 +3,7 @@ name: Weather ETL Automation
 on:
   workflow_dispatch:  # Permite ejecutar el workflow manualmente
   schedule:
-    - cron: '0 6 * * *'  # Se ejecutará diariamente a medianoche UTC
+    - cron: '0 6 * * *'  # Se ejecutará diariamente a las 6am UTC
 
 jobs:
   build:
