@@ -1,6 +1,6 @@
 # Weather Data ETL Automation
 
-Este proyecto ejecuta un script de ETL para obtener datos meteorológicos de 5 ciudades utilizando la API de OpenWeatherMap, los almacena en una base de datos PostgreSQL y genera un archivo CSV con los datos obtenidos.
+Este proyecto ejecuta un script de ETL para obtener datos meteorológicos de 5 ciudades utilizando la API de OpenWeatherMap, genera un archivo CSV con los datos obtenidos.
 
 ## Automatización con GitHub Actions
 
