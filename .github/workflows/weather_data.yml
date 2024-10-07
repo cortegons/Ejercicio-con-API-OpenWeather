@@ -39,5 +39,5 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add weather_data.csv
           git add weather_etl.log
-          git commit -m "Update weather data CSV"
+          git commit -m "Update weather csv and log"
           git push origin main
