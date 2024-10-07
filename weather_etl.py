@@ -3,7 +3,7 @@ import logging
 import os
 import time
 import csv
-
+from datetime import datetime  # Importa datetime para obtener la fecha y hora
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO, 
@@ -13,21 +13,17 @@ logging.basicConfig(level=logging.INFO,
                         logging.StreamHandler()])
 
 # Variables de entorno para la conexión a la base de datos y la API
-
 db_user = os.getenv('POSTGRES_USER')
 db_password = os.getenv('POSTGRES_PASSWORD')
 db_host = os.getenv('DB_HOST', 'db')  # Nombre del servicio en docker-
 db_name = os.getenv('POSTGRES_DB')
-
-
 api_key = os.getenv('OPENWEATHER_API_KEY')
 
 # Lista de ciudades
 cities = ["London", "New York", "Tokyo", "Bogotá", "Paris"]
-#cities = ["Bogotá"] Test
+# cities = ["Bogotá"] Test
 
 # Crear conexión a la base de datos PostgreSQL
-
 
 # Función para obtener las coordenadas de una ciudad
 def get_coordinates(city):
@@ -77,25 +73,32 @@ def get_weather_data(lat, lon, city):
         logging.error(f"Error al obtener los datos del clima para {city}: {e}")
         return None
 
-
 # Función para guardar los datos meteorológicos en un archivo CSV
 def save_to_csv(weather_data, filename="weather_data.csv"):
     file_exists = os.path.isfile(filename)
     
+    # Obtiene la fecha y hora actual
+    execution_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    # Añade la fecha y hora a los datos del clima
+    weather_data['execution_time'] = execution_time  # Agrega el tiempo de ejecución
+    
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=weather_data.keys())  # Cambiado aquí
+        # Define los nombres de los campos, asegurando que 'execution_time' esté al principio
+        fieldnames = ['execution_time'] + list(weather_data.keys())
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
         
         # Si el archivo no existe, escribir el encabezado
         if not file_exists:
             writer.writeheader()
+        
         # Escribir los datos
-        writer.writerow(weather_data)  # Cambiado aquí
-            
-            
+        writer.writerow(weather_data)
+
 # Ejecutar 
 for city in cities:
     lat, lon = get_coordinates(city)
     weather_info = get_weather_data(lat, lon, city)
-    #insert_weather_data(weather_info)
+    # insert_weather_data(weather_info)
     save_to_csv(weather_info)
     time.sleep(1)  # Para evitar hacer demasiadas solicitudes en un corto periodo

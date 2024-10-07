@@ -10,3 +10,4 @@
 2024-10-06 20:23:45,135 INFO:Datos obtenidos correctamente para Bogotá: {'city': 'Bogotá', 'temperature': 286.57, 'humidity': 94, 'weather_description': 'overcast clouds', 'wind_speed': 0.65}
 2024-10-06 20:24:07,498 INFO:Coordenadas de Paris: Lat 48.8588897, Lon 2.3200410217200766
 2024-10-06 20:24:22,837 INFO:Datos obtenidos correctamente para Paris: {'city': 'Paris', 'temperature': 288.19, 'humidity': 90, 'weather_description': 'broken clouds', 'wind_speed': 4.01}
+2024-10-06 22:02:28,676 ERROR:Error al obtener coordenadas para London: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/geo/1.0/direct?q=London&limit=1&appid=None
