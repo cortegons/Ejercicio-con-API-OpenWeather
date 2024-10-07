@@ -1,6 +1,5 @@
 import requests
 import logging
-from sqlalchemy import create_engine, text
 import os
 import time
 import csv
@@ -28,7 +27,7 @@ cities = ["London", "New York", "Tokyo", "Bogotá", "Paris"]
 #cities = ["Bogotá"] Test
 
 # Crear conexión a la base de datos PostgreSQL
-engine = create_engine(f'postgresql://{db_user}:{db_password}@{db_host}/{db_name}')
+
 
 # Función para obtener las coordenadas de una ciudad
 def get_coordinates(city):
@@ -78,34 +77,6 @@ def get_weather_data(lat, lon, city):
         logging.error(f"Error al obtener los datos del clima para {city}: {e}")
         return None
 
-"""
-# Función para insertar los datos en la base de datos
-def insert_weather_data(weather_info):
-    if weather_info is None:
-        return
-    
-    query = text(""
-    INSERT INTO weather_data (city, temperature, humidity, weather_description, wind_speed)
-    VALUES (:city, :temperature, :humidity, :weather_description, :wind_speed);
-    "")
-    
-    try:
-        with engine.connect() as connection:
-            
-# Usa la consulta dentro de `text()` y pasa los parámetros como un diccionario
-            transaction = connection.begin()  # Iniciar la transacción
-            connection.execute(query, {
-                'city': weather_info['city'],
-                'temperature': weather_info['temperature'],
-                'humidity': weather_info['humidity'],
-                'weather_description': weather_info['weather_description'],
-                'wind_speed': weather_info['wind_speed']
-            })
-            transaction.commit()  # Confirmar la transacción
-        logging.info(f"Datos insertados en la base de datos para {weather_info['city']}")
-    except Exception as e:
-        logging.error(f"Error al insertar los datos en la base de datos: {e}")
-"""
 
 # Función para guardar los datos meteorológicos en un archivo CSV
 def save_to_csv(weather_data, filename="weather_data.csv"):
