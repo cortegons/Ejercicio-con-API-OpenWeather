@@ -1,35 +1,22 @@
-name: Weather Data Collection
+name: Weather ETL Automation
 
 on:
+  workflow_dispatch:  # Permite ejecutar el workflow manualmente
   schedule:
-    - cron: '0 0 * * *'  # Cada día a la medianoche UTC
-  workflow_dispatch:  
-
-permissions:
-  contents: write  # Permitir al workflow escribir en el repositorio
+    - cron: '0 0 * * *'  # Se ejecutará diariamente a medianoche UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
-
-      - name: Cache Python packages
-        uses: actions/cache@v2
-        with:
-          path: |
-            ~/.cache/pip
-            **/__pycache__  # Caching también los __pycache__ si es necesario
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -37,14 +24,19 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run ETL script
-        run: python weather_etl.py
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+        run: |
+          python weather_etl.py
 
-      - name: Commit CSV changes
+      - name: Commit CSV file
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add weather_data.csv
           git commit -m "Update weather data CSV"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usar el token por defecto
+          git push origin main
