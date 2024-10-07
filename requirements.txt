@@ -1,0 +1,14 @@
+# Para realizar solicitudes HTTP (interactuar con la API de OpenWeatherMap)
+requests==2.31.0
+
+# Para manipular los datos (puedes ajustar según tu preferencia)
+pandas==2.0.3
+
+# Para conectarse a PostgreSQL desde Python
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.6
+
+# Para cargar variables de entorno desde un archivo .env
+python-dotenv==1.0.0
+
+# Para manejar logging (ya incluido en Python estándar, pero útil tener como referencia)
