@@ -19,3 +19,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2024-10-09 06:15:47,Tokyo,290.69,86,light intensity shower rain,7.72,2024-10-09 06:15:47
 2024-10-09 06:15:48,Bogotá,285.14,100,moderate rain,1.54,2024-10-09 06:15:48
 2024-10-09 06:15:50,Paris,286.77,97,moderate rain,5.14,2024-10-09 06:15:50
+2024-10-10 06:15:32,London,282.81,88,broken clouds,3.6,2024-10-10 06:15:32
+2024-10-10 06:15:33,New York,285.05,62,clear sky,5.14,2024-10-10 06:15:33
+2024-10-10 06:15:34,Tokyo,294.35,66,broken clouds,7.2,2024-10-10 06:15:34
+2024-10-10 06:15:36,Bogotá,285.14,94,broken clouds,1.03,2024-10-10 06:15:36
+2024-10-10 06:15:37,Paris,286.02,97,light rain,4.63,2024-10-10 06:15:37
