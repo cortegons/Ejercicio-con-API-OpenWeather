@@ -184,3 +184,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2024-11-12 06:15:01,Tokyo,293.79,65,broken clouds,2.86,2024-11-12 06:15:01
 2024-11-12 06:15:03,Bogotá,285.14,100,broken clouds,1.03,2024-11-12 06:15:03
 2024-11-12 06:15:05,Paris,282.13,92,broken clouds,6.69,2024-11-12 06:15:05
+2024-11-13 06:15:22,London,281.48,89,broken clouds,1.79,2024-11-13 06:15:22
+2024-11-13 06:15:23,New York,277.57,52,smoke,6.69,2024-11-13 06:15:23
+2024-11-13 06:15:25,Tokyo,292.86,52,few clouds,6.69,2024-11-13 06:15:25
+2024-11-13 06:15:26,Bogotá,285.14,100,broken clouds,2.06,2024-11-13 06:15:26
+2024-11-13 06:15:27,Paris,281.65,88,overcast clouds,4.63,2024-11-13 06:15:27
