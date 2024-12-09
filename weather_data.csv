@@ -314,3 +314,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2024-12-08 06:15:04,Tokyo,285.9,33,few clouds,8.23,2024-12-08 06:15:04
 2024-12-08 06:15:05,Bogotá,285.83,100,scattered clouds,1.03,2024-12-08 06:15:05
 2024-12-08 06:15:07,Paris,280.96,89,overcast clouds,9.77,2024-12-08 06:15:07
+2024-12-09 06:17:24,London,280.54,84,scattered clouds,4.02,2024-12-09 06:17:24
+2024-12-09 06:17:26,New York,279.34,70,clear sky,0,2024-12-09 06:17:26
+2024-12-09 06:17:27,Tokyo,285.96,27,few clouds,2.57,2024-12-09 06:17:27
+2024-12-09 06:17:28,Bogotá,283.74,100,few clouds,1.03,2024-12-09 06:17:28
+2024-12-09 06:17:30,Paris,279.28,91,overcast clouds,6.17,2024-12-09 06:17:30
