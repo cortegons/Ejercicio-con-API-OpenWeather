@@ -1271,3 +1271,13 @@
 2025-03-06 06:16:05,499 INFO:Datos obtenidos correctamente para Bogotá: {'city': 'Bogotá', 'temperature': 286.14, 'humidity': 100, 'weather_description': 'broken clouds', 'wind_speed': 2.06}
 2025-03-06 06:16:06,691 INFO:Coordenadas de Paris: Lat 48.8588897, Lon 2.3200410217200766
 2025-03-06 06:16:06,885 INFO:Datos obtenidos correctamente para Paris: {'city': 'Paris', 'temperature': 278.8, 'humidity': 76, 'weather_description': 'clear sky', 'wind_speed': 2.57}
+2025-03-07 06:15:57,200 INFO:Coordenadas de London: Lat 51.5073219, Lon -0.1276474
+2025-03-07 06:15:57,402 INFO:Datos obtenidos correctamente para London: {'city': 'London', 'temperature': 281.96, 'humidity': 83, 'weather_description': 'overcast clouds', 'wind_speed': 3.09}
+2025-03-07 06:15:58,595 INFO:Coordenadas de New York: Lat 40.7127281, Lon -74.0060152
+2025-03-07 06:15:58,801 INFO:Datos obtenidos correctamente para New York: {'city': 'New York', 'temperature': 275.58, 'humidity': 50, 'weather_description': 'overcast clouds', 'wind_speed': 12.07}
+2025-03-07 06:15:59,997 INFO:Coordenadas de Tokyo: Lat 35.6828387, Lon 139.7594549
+2025-03-07 06:16:00,207 INFO:Datos obtenidos correctamente para Tokyo: {'city': 'Tokyo', 'temperature': 284.13, 'humidity': 27, 'weather_description': 'few clouds', 'wind_speed': 11.32}
+2025-03-07 06:16:01,409 INFO:Coordenadas de Bogotá: Lat 4.6534649, Lon -74.0836453
+2025-03-07 06:16:01,645 INFO:Datos obtenidos correctamente para Bogotá: {'city': 'Bogotá', 'temperature': 284.14, 'humidity': 100, 'weather_description': 'broken clouds', 'wind_speed': 1.54}
+2025-03-07 06:16:02,846 INFO:Coordenadas de Paris: Lat 48.8588897, Lon 2.3200410217200766
+2025-03-07 06:16:03,061 INFO:Datos obtenidos correctamente para Paris: {'city': 'Paris', 'temperature': 280.75, 'humidity': 78, 'weather_description': 'clear sky', 'wind_speed': 3.09}
