@@ -1344,3 +1344,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2025-07-27 06:18:33,Tokyo,305.57,66,broken clouds,10.29,2025-07-27 06:18:33
 2025-07-27 06:18:34,Bogotá,285.14,100,scattered clouds,2.06,2025-07-27 06:18:34
 2025-07-27 06:18:35,Paris,291.14,94,broken clouds,5.14,2025-07-27 06:18:35
+2025-07-28 06:22:00,London,288.67,78,scattered clouds,2.57,2025-07-28 06:22:00
+2025-07-28 06:22:02,New York,299.8,76,clear sky,3.6,2025-07-28 06:22:02
+2025-07-28 06:22:03,Tokyo,308.19,56,scattered clouds,8.75,2025-07-28 06:22:03
+2025-07-28 06:22:04,Bogotá,284.14,93,few clouds,3.09,2025-07-28 06:22:04
+2025-07-28 06:22:05,Paris,289.46,88,clear sky,4.12,2025-07-28 06:22:05
