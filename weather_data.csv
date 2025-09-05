@@ -1539,3 +1539,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2025-09-04 06:17:35,Tokyo,302,76,broken clouds,2.06,2025-09-04 06:17:35
 2025-09-04 06:17:36,Bogotá,284.89,98,moderate rain,2.68,2025-09-04 06:17:36
 2025-09-04 06:17:37,Paris,288.22,93,broken clouds,3.6,2025-09-04 06:17:37
+2025-09-05 06:18:01,London,284.46,91,clear sky,1.34,2025-09-05 06:18:01
+2025-09-05 06:18:02,New York,292.45,92,mist,2.06,2025-09-05 06:18:02
+2025-09-05 06:18:03,Tokyo,297.45,95,heavy intensity shower rain,3.09,2025-09-05 06:18:03
+2025-09-05 06:18:05,Bogotá,283.84,99,broken clouds,1.34,2025-09-05 06:18:05
+2025-09-05 06:18:06,Paris,286.29,91,clear sky,3.09,2025-09-05 06:18:06
