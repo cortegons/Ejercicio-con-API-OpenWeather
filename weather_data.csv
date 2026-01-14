@@ -2189,3 +2189,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2026-01-13 06:21:54,Tokyo,287.63,44,few clouds,13.38,2026-01-13 06:21:54
 2026-01-13 06:21:55,Bogotá,286.69,91,broken clouds,1.54,2026-01-13 06:21:55
 2026-01-13 06:21:56,Paris,281.98,80,clear sky,4.63,2026-01-13 06:21:56
+2026-01-14 06:22:08,London,274.89,92,scattered clouds,1.54,2026-01-14 06:22:08
+2026-01-14 06:22:09,New York,279.53,66,overcast clouds,2.57,2026-01-14 06:22:09
+2026-01-14 06:22:10,Tokyo,284.18,27,few clouds,3.6,2026-01-14 06:22:10
+2026-01-14 06:22:11,Bogotá,285.27,98,broken clouds,3.6,2026-01-14 06:22:11
+2026-01-14 06:22:13,Paris,282.09,91,overcast clouds,2.57,2026-01-14 06:22:13
