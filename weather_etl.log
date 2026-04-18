@@ -5331,3 +5331,13 @@
 2026-04-17 07:21:05,385 INFO:Datos obtenidos correctamente para Bogotá: {'city': 'Bogotá', 'temperature': 284.31, 'humidity': 97, 'weather_description': 'overcast clouds', 'wind_speed': 0.62}
 2026-04-17 07:21:06,491 INFO:Coordenadas de Paris: Lat 48.8588897, Lon 2.3200410217200766
 2026-04-17 07:21:06,548 INFO:Datos obtenidos correctamente para Paris: {'city': 'Paris', 'temperature': 284.63, 'humidity': 75, 'weather_description': 'few clouds', 'wind_speed': 1.12}
+2026-04-18 06:57:22,585 INFO:Coordenadas de London: Lat 51.5073219, Lon -0.1276474
+2026-04-18 06:57:22,750 INFO:Datos obtenidos correctamente para London: {'city': 'London', 'temperature': 283.15, 'humidity': 84, 'weather_description': 'clear sky', 'wind_speed': 3.6}
+2026-04-18 06:57:23,939 INFO:Coordenadas de New York: Lat 40.7127281, Lon -74.0060152
+2026-04-18 06:57:24,102 INFO:Datos obtenidos correctamente para New York: {'city': 'New York', 'temperature': 286.07, 'humidity': 89, 'weather_description': 'clear sky', 'wind_speed': 2.06}
+2026-04-18 06:57:25,290 INFO:Coordenadas de Tokyo: Lat 35.6828387, Lon 139.7594549
+2026-04-18 06:57:25,451 INFO:Datos obtenidos correctamente para Tokyo: {'city': 'Tokyo', 'temperature': 294.72, 'humidity': 51, 'weather_description': 'scattered clouds', 'wind_speed': 6.17}
+2026-04-18 06:57:26,639 INFO:Coordenadas de Bogotá: Lat 4.6534649, Lon -74.0836453
+2026-04-18 06:57:26,797 INFO:Datos obtenidos correctamente para Bogotá: {'city': 'Bogotá', 'temperature': 283.16, 'humidity': 97, 'weather_description': 'overcast clouds', 'wind_speed': 0.45}
+2026-04-18 06:57:27,987 INFO:Coordenadas de Paris: Lat 48.8588897, Lon 2.3200410217200766
+2026-04-18 06:57:28,152 INFO:Datos obtenidos correctamente para Paris: {'city': 'Paris', 'temperature': 286.28, 'humidity': 78, 'weather_description': 'clear sky', 'wind_speed': 2.06}
