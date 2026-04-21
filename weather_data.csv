@@ -2674,3 +2674,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2026-04-20 07:52:22,Tokyo,294.91,59,broken clouds,7.2,2026-04-20 07:52:22
 2026-04-20 07:52:23,Bogotá,281.59,95,scattered clouds,0.45,2026-04-20 07:52:23
 2026-04-20 07:52:25,Paris,283.15,75,scattered clouds,5.66,2026-04-20 07:52:25
+2026-04-21 07:22:59,London,282.08,76,clear sky,6.26,2026-04-21 07:22:59
+2026-04-21 07:23:00,New York,276.14,52,smoke,5.14,2026-04-21 07:23:00
+2026-04-21 07:23:02,Tokyo,298.73,28,scattered clouds,2.57,2026-04-21 07:23:02
+2026-04-21 07:23:03,Bogotá,283.16,94,overcast clouds,0.54,2026-04-21 07:23:03
+2026-04-21 07:23:04,Paris,282.02,72,clear sky,4.63,2026-04-21 07:23:04
