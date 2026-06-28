@@ -3014,3 +3014,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2026-06-27 08:26:40,Tokyo,295.58,94,heavy intensity rain,3.06,2026-06-27 08:26:40
 2026-06-27 08:26:41,Bogotá,286.85,76,overcast clouds,2.24,2026-06-27 08:26:41
 2026-06-27 08:26:42,Paris,302.07,47,clear sky,2.57,2026-06-27 08:26:42
+2026-06-28 08:40:55,London,295.56,64,overcast clouds,4.02,2026-06-28 08:40:55
+2026-06-28 08:40:57,New York,294.28,86,overcast clouds,0.45,2026-06-28 08:40:57
+2026-06-28 08:40:58,Tokyo,295.79,84,overcast clouds,3.44,2026-06-28 08:40:58
+2026-06-28 08:40:59,Bogotá,286.3,76,overcast clouds,1.79,2026-06-28 08:40:59
+2026-06-28 08:41:00,Paris,297.37,74,overcast clouds,2.24,2026-06-28 08:41:00
