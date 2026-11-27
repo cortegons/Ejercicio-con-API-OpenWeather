@@ -3774,3 +3774,8 @@ execution_time,city,temperature,humidity,weather_description,wind_speed,executio
 2026-11-26 16:03:20,Tokyo,284.72,61,moderate rain,3.09,2026-11-26 16:03:20
 2026-11-26 16:03:21,Bogotá,292.11,65,light rain,2.24,2026-11-26 16:03:21
 2026-11-26 16:03:23,Paris,276.96,87,overcast clouds,2.57,2026-11-26 16:03:23
+2026-11-27 15:52:28,London,277.65,84,overcast clouds,4.63,2026-11-27 15:52:28
+2026-11-27 15:52:30,New York,286.12,74,overcast clouds,7.72,2026-11-27 15:52:30
+2026-11-27 15:52:31,Tokyo,286.67,65,heavy intensity rain,2.06,2026-11-27 15:52:31
+2026-11-27 15:52:32,Bogotá,292.14,50,overcast clouds,3.13,2026-11-27 15:52:32
+2026-11-27 15:52:33,Paris,275.78,78,overcast clouds,3.09,2026-11-27 15:52:33
